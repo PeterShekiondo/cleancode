@@ -1,0 +1,36 @@
+name: clean_code_template
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+#  service locator
+  get_it: ^7.2.0
+#  state manager
+  flutter_bloc: ^8.0.1
+#  value quality
+  equatable: ^2.0.3
+#  functional programing
+  dartz: ^0.10.1
+#  remote API
+  connectivity_plus: ^2.2.1
+  http: ^0.13.4
+#  local cache
+  shared_preferences: ^2.0.13
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  mockito: ^5.1.0
+
+flutter:
+  uses-material-design: true
